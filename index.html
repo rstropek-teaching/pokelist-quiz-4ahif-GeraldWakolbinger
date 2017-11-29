@@ -1,24 +1,36 @@
 <!Doctype html>
 <html>
-    <body>
-        <h1>Pokedex</h1>
-        <div id="pokemons">
 
-        </div>
+<body onload="getPokeDex()">
+    <h1>Pokedex</h1>
+    <div id="pokemonListContainer">
+
+    </div>
+    <div id="pokeDetails">
         <div id="pokeName">
 
         </div>
-        <div id="picture">
+
+        <div id="pokeWeight">
 
         </div>
-        <div id="weight">
-            
+
+        <div id="pokePictureContainer">
+            <img id="pokePicture"></img>
         </div>
-        
-        <button onclick="previousPage()">Previous</button>
-        <button onclick="nextPage()">Next</button>
-        <script src="index.js"></script>
-    </body>
-    
+
+        <div id="pokeAbilities">
+
+        </div>
+    </div>
+    <div id="changePageButtons">
+
+    </div>
+
+
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="index.js"></script>
 
 </html>
